@@ -1,0 +1,312 @@
+.front_img{
+    width: 100%;
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*index.html-header starts*/
+header{
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+#logo a{
+    text-decoration: none;
+}
+#company_name{
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 30px;
+    font-weight: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo  {
+    text-align: center; /*logo aligned with center*/
+}
+/*header ends*/
+
+/*index.html nav starts*/
+#top_menu ul li {
+    list-style: none;           /*li elements are floated to left for making a horizontal navigation bar.*/
+    color: beige;
+    background-color: #2d2d2d;
+    float: left;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: #2d2d2d;
+}
+nav ul{
+    margin: 0px;
+}
+.menu_link {
+    text-decoration: none;
+    color: beige;
+    display: block;
+    width: 200px;
+    font-size: 11px;
+    font-weight: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#top_menu .menu_link:hover {    /*hover effect used for cursor to get effect*/
+    color: rgb(0, 9, 17);
+    background-color: aliceblue;
+}
+/*index.html-nav ends*/
+
+/*index.html-section starts*/
+#content {
+    float: left;
+    background-color:white;
+    width: 72%;
+}
+.article_content {
+    background-color: rgb(207, 205, 205);
+    margin: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+.h3_index_html{
+    margin-top: 0px;
+ 
+}
+.article_content img{    /*photo edges look round*/
+    border-radius: 3px;
+}
+.para{
+    text-align: left;
+    /*max-width: 100%;*/
+    width: 800px;
+    padding-left: 130px;
+}
+
+/*section ends*/
+
+/*index.html- aside starts*/
+.ads{
+    float: left;
+    background-color: antiquewhite;
+    width: 25%;
+    margin-left: 3%;
+}
+#ads h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ads_img{
+    border-radius: 3px;
+    max-width: 80% ;                /*responsive design applied by using height: auto and max-width: 80%*/
+    height: auto;
+    margin: 30px;
+    margin-top: 5px;    
+}
+#intro_ads_img{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+.h5_index_html{
+    margin: 0px;
+    margin-left: 30px;
+    
+}
+.what_we_do_img{
+    width: 300px;
+    height: 300px;
+}
+/*aside ends*/
+
+/*index.html - footer starts*/
+footer{
+    clear: both;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+    text-align: center;    
+}
+footer h5,h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*footer ends*/
+/*-----------------------------------------*/
+/*position.html - section starts*/
+
+#postion.html_frontimg{
+    height:400px;
+    display: block;
+}
+
+.content_layout{  /*class content_layout used for both block elements(<section>) to be affected it is defined by class due to same effects expected for both sections*/
+    float: left;
+    width: 35%;
+    margin-left: 1%;
+    background-color: rgb(197, 198, 199, 0.1);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content_layout_aside{ /*together with section elements, it is floated to the right side showing ads. width are not crashed with widths of section elements*/
+    float:left;
+    width: 20%;
+    margin-left: 1%;
+    padding-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content_layout_aside img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 80px;
+    padding-left: 80px;
+}
+.position_section_img{              /*make img give block element effect to position image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 183px;
+    width: 70%;
+}
+.position_reference{
+    margin-top: 0px;
+    text-align: center;
+}
+.position_title{
+    margin-bottom: 1px;
+    text-align: center;
+}
+.article_wapper{
+    background-color: rgb(250, 230, 201, 0.2);
+    margin: 5px 10px 5px 10px;
+}
+.content_layout_aside h5{
+    text-align: center;
+    padding-left: 80px;
+
+}
+#donation {
+    display: block;                 /*make img give block element effect to position image*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    padding-left: 45px;
+}
+.content_layout_aside_article{
+    background-color: rgb(197, 190, 190, 0.1);
+    width: 100%;
+    margin-left: 50px;
+}
+/*apply.html page*/
+#form{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(153, 163, 173, 0.2);
+}
+.fieldset:hover {
+    background-color: rgb(230, 221, 210, 0.3);      /*given hover effects for each fieldset*/
+}
+.intro_application{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.button{
+    background-color: #2b2a2a;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 5px;
+    border: none;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+}
+.button:hover{
+    background-color: rgb(195, 219, 240, 0.4);
+    color: black;
+}
+/*apply.html ends*/
+
+/*detail.html starts*/
+#sectiondl, figure{
+    float: left;
+    width: 30%;
+}
+#sectiondl{
+    line-height: 3em;
+    background-color: rgb(132, 238, 238,0.3);
+    margin-left: 5%;
+}
+dt, dd{
+    display: inline;                    /*inline was given for making block elements have inline effect*/
+    margin-left: 10px;
+}
+
+dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+#sectiondl p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+figure img{
+    border: rgb(132, 238, 238,0.3) solid 10px;
+}
+#asidedetailhtml{
+    float: left;
+    width: 25%;
+    margin-top: 100px;
+    text-align: center;
+}
+#h5detailhtml{
+    padding-left: 70px;
+}
+#sectiondl{
+    margin-top: 19px;
+}
+#img_aside_detailhtml img{
+    max-width: 80%;
+}
+#asidedetailhtml{
+    background-color: rgb(132, 238, 238,0.3);
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+/*table in detail.html*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(169, 177, 185, 0.3);        /*from there designing table figure */
+}                                                       /* used background-color for showing what time classes located*/
+.time{
+    background-color: rgb(169, 177, 185, 0.3);
+}
+.OOP{
+    background-color: cornflowerblue;
+}
+.SPM{
+    background-color: darkorange;
+}
+.CWA{
+    background-color: hotpink;
+}
+.MBSM{
+    background-color: aquamarine;
+}
+
+table caption{
+    font-weight: bold;
+    margin-top: 30px;
+}
+#tsection{                                                  /*float right given for moving a table to right side*/
+    float: right;
+    margin-bottom: 10px;
+}
